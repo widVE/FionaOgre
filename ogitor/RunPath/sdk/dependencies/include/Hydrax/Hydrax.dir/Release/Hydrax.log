@@ -1,0 +1,85 @@
+﻿Build started 12/9/2013 7:03:16 AM.
+     1>Project "C:\ogrerc19\ogitor\Dependencies\HYDRAX\Hydrax\src\Hydrax\Hydrax.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Hydrax.dir\Release\Hydrax.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         setlocal
+         if not exist ..\..\..\..\..\RunPath\bin mkdir ..\..\..\..\..\RunPath\bin
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/ogrerc19/ogitor/Dependencies/HYDRAX/Hydrax/src/Hydrax/CMakeLists.txt
+         CMake does not need to re-run because C:\ogrerc19\ogitor\Dependencies\HYDRAX\Hydrax\src\Hydrax\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/FionaOgre/SDK/include/OGRE /IC:/FionaOgre/SDK/include/Ogre /IC:/FionaOgre/SDK/include /IC:/local/boost /IC:/FionaOgre/SDK/include/Ogre/Terrain /IC:/FionaOgre/SDK/include/Ogre/Paging /IC:/ogrerc19/ogitor/Dependencies/HYDRAX/Hydrax/src/Hydrax/. /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D HYDRAX_LIB /D "CMAKE_INTDIR=\"Release\"" /D Hydrax_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Hydrax.dir\Release\\" /Fd"C:/ogrerc19/ogitor/Dependencies/lib/Release/Hydrax.pdb" /Gd /TP /analyze- /errorReport:prompt CfgFileManager.cpp Help.cpp Prerequisites.cpp DecalsManager.cpp Hydrax.cpp RttManager.cpp Enums.cpp Image.cpp TextureManager.cpp GodRaysManager.cpp MaterialManager.cpp GPUNormalMapManager.cpp Mesh.cpp Noise\Noise.cpp Noise\Perlin\Perlin.cpp Noise\FFT\FFT.cpp Modules\Module.cpp Modules\ProjectedGrid\ProjectedGrid.cpp Modules\RadialGrid\RadialGrid.cpp Modules\SimpleGrid\SimpleGrid.cpp  /Zm1000 
+         CfgFileManager.cpp
+         Help.cpp
+         Prerequisites.cpp
+         DecalsManager.cpp
+         Hydrax.cpp
+         RttManager.cpp
+         Enums.cpp
+         Image.cpp
+         TextureManager.cpp
+         GodRaysManager.cpp
+         MaterialManager.cpp
+         GPUNormalMapManager.cpp
+         Mesh.cpp
+         Noise.cpp
+         Perlin.cpp
+         FFT.cpp
+         Module.cpp
+         ProjectedGrid.cpp
+         RadialGrid.cpp
+         SimpleGrid.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ogrerc19\ogitor\Dependencies\lib\Release\Hydrax.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\FionaOgre\SDK\lib\OgreMain.lib "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" /MANIFEST /ManifestFile:"Hydrax.dir\Release\Hydrax.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/ogrerc19/ogitor/Dependencies/lib/Release/Hydrax.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ogrerc19/ogitor/Dependencies/lib/Release/Hydrax.lib" /MACHINE:X86 /DLL Hydrax.dir\Release\CfgFileManager.obj
+         Hydrax.dir\Release\Help.obj
+         Hydrax.dir\Release\Prerequisites.obj
+         Hydrax.dir\Release\DecalsManager.obj
+         Hydrax.dir\Release\Hydrax.obj
+         Hydrax.dir\Release\RttManager.obj
+         Hydrax.dir\Release\Enums.obj
+         Hydrax.dir\Release\Image.obj
+         Hydrax.dir\Release\TextureManager.obj
+         Hydrax.dir\Release\GodRaysManager.obj
+         Hydrax.dir\Release\MaterialManager.obj
+         Hydrax.dir\Release\GPUNormalMapManager.obj
+         Hydrax.dir\Release\Mesh.obj
+         Hydrax.dir\Release\Noise.obj
+         Hydrax.dir\Release\Perlin.obj
+         Hydrax.dir\Release\FFT.obj
+         Hydrax.dir\Release\Module.obj
+         Hydrax.dir\Release\ProjectedGrid.obj
+         Hydrax.dir\Release\RadialGrid.obj
+         Hydrax.dir\Release\SimpleGrid.obj  /machine:X86 
+            Creating library C:/ogrerc19/ogitor/Dependencies/lib/Release/Hydrax.lib and object C:/ogrerc19/ogitor/Dependencies/lib/Release/Hydrax.exp
+         Hydrax.vcxproj -> C:\ogrerc19\ogitor\Dependencies\lib\Release\Hydrax.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ogrerc19\ogitor\Dependencies\lib\Release\Hydrax.dll;#2" /manifest Hydrax.dir\Release\Hydrax.dll.intermediate.manifest
+       PostBuildEvent:
+         setlocal
+         copy "C:\ogrerc19\ogitor\Dependencies\lib\Release\Hydrax.dll" ..\..\..\..\..\RunPath\bin
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Hydrax.dir\Release\Hydrax.unsuccessfulbuild".
+         Touching "Hydrax.dir\Release\Hydrax.lastbuildstate".
+     1>Done Building Project "C:\ogrerc19\ogitor\Dependencies\HYDRAX\Hydrax\src\Hydrax\Hydrax.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:41.37

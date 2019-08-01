@@ -1,0 +1,40 @@
+material Color_004
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material Color_C05
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.898039215686275 0.8 1.0
+      }
+   }
+}
+material Material1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.247058823529412 0.247058823529412 0.247058823529412 1.0
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}

@@ -1,0 +1,203 @@
+﻿Build started 12/9/2013 6:52:33 AM.
+     1>Project "C:\ogrerc19\ogitor\Dependencies\SkyX\SkyX.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "SkyX.dir\Release\SkyX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         setlocal
+         if not exist ..\..\RunPath\bin mkdir ..\..\RunPath\bin
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/ogrerc19/ogitor/Dependencies/SkyX/CMakeLists.txt
+         CMake does not need to re-run because C:\ogrerc19\ogitor\Dependencies\SkyX\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/FionaOgre/SDK/include/OGRE /IC:/FionaOgre/SDK/include/Ogre /IC:/FionaOgre/SDK/include /IC:/local/boost /IC:/FionaOgre/SDK/include/Ogre/Terrain /IC:/FionaOgre/SDK/include/Ogre/Paging /IC:/ogrerc19/ogitor/Dependencies/SkyX /IC:/ogrerc19/ogitor/Dependencies/SkyX/VClouds /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D SKYX_LIB /D "CMAKE_INTDIR=\"Release\"" /D SkyX_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"SkyX.dir\Release\\" /Fd"C:/ogrerc19/ogitor/Dependencies/lib/Release/SkyX.pdb" /Gd /TP /analyze- /errorReport:prompt AtmosphereManager.cpp BasicController.cpp CloudsManager.cpp ColorGradient.cpp GPUManager.cpp MeshManager.cpp MoonManager.cpp Prerequisites.cpp SkyX.cpp VCloudsManager.cpp VClouds\DataManager.cpp VClouds\Ellipsoid.cpp VClouds\FastFakeRandom.cpp VClouds\GeometryBlock.cpp VClouds\GeometryManager.cpp VClouds\Lightning.cpp VClouds\LightningManager.cpp VClouds\VClouds.cpp  /Zm1000 
+         AtmosphereManager.cpp
+         BasicController.cpp
+     1>AtmosphereManager.cpp(242): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(242): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(242): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>AtmosphereManager.cpp(253): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>AtmosphereManager.cpp(254): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>AtmosphereManager.cpp(255): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         CloudsManager.cpp
+         ColorGradient.cpp
+     1>CloudsManager.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(52): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(52): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(64): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(64): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(64): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(66): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(67): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(67): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(67): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(67): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(72): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(73): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(74): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(74): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(75): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(75): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(75): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(76): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(77): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(77): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>CloudsManager.cpp(78): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+         GPUManager.cpp
+         MeshManager.cpp
+         MoonManager.cpp
+         Prerequisites.cpp
+         SkyX.cpp
+         VCloudsManager.cpp
+     1>VCloudsManager.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(54): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(61): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(61): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>VCloudsManager.cpp(61): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+         DataManager.cpp
+         Ellipsoid.cpp
+     1>VClouds\DataManager.cpp(311): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\DataManager.cpp(311): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\DataManager.cpp(315): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\DataManager.cpp(315): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\DataManager.cpp(319): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\DataManager.cpp(319): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         FastFakeRandom.cpp
+         GeometryBlock.cpp
+         GeometryManager.cpp
+         Lightning.cpp
+     1>VClouds\Lightning.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\Lightning.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\Lightning.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\Lightning.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\Lightning.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         LightningManager.cpp
+         VClouds.cpp
+     1>VClouds\LightningManager.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\LightningManager.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\LightningManager.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>VClouds\LightningManager.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ogrerc19\ogitor\Dependencies\lib\Release\SkyX.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\FionaOgre\SDK\lib\OgreMain.lib "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_thread-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_date_time-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_system-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_regex-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_filesystem-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_atomic-vc100-mt-1_55.lib" "C:\local\boost\lib\libboost_chrono-vc100-mt-1_55.lib" /MANIFEST /ManifestFile:"SkyX.dir\Release\SkyX.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/ogrerc19/ogitor/Dependencies/lib/Release/SkyX.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ogrerc19/ogitor/Dependencies/lib/Release/SkyX.lib" /MACHINE:X86 /DLL SkyX.dir\Release\AtmosphereManager.obj
+         SkyX.dir\Release\BasicController.obj
+         SkyX.dir\Release\CloudsManager.obj
+         SkyX.dir\Release\ColorGradient.obj
+         SkyX.dir\Release\GPUManager.obj
+         SkyX.dir\Release\MeshManager.obj
+         SkyX.dir\Release\MoonManager.obj
+         SkyX.dir\Release\Prerequisites.obj
+         SkyX.dir\Release\SkyX.obj
+         SkyX.dir\Release\VCloudsManager.obj
+         SkyX.dir\Release\DataManager.obj
+         SkyX.dir\Release\Ellipsoid.obj
+         SkyX.dir\Release\FastFakeRandom.obj
+         SkyX.dir\Release\GeometryBlock.obj
+         SkyX.dir\Release\GeometryManager.obj
+         SkyX.dir\Release\Lightning.obj
+         SkyX.dir\Release\LightningManager.obj
+         SkyX.dir\Release\VClouds.obj  /machine:X86 
+            Creating library C:/ogrerc19/ogitor/Dependencies/lib/Release/SkyX.lib and object C:/ogrerc19/ogitor/Dependencies/lib/Release/SkyX.exp
+         SkyX.vcxproj -> C:\ogrerc19\ogitor\Dependencies\lib\Release\SkyX.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ogrerc19\ogitor\Dependencies\lib\Release\SkyX.dll;#2" /manifest SkyX.dir\Release\SkyX.dll.intermediate.manifest
+       PostBuildEvent:
+         setlocal
+         copy "C:\ogrerc19\ogitor\Dependencies\lib\Release\SkyX.dll" ..\..\RunPath\bin
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "SkyX.dir\Release\SkyX.unsuccessfulbuild".
+         Touching "SkyX.dir\Release\SkyX.lastbuildstate".
+     1>Done Building Project "C:\ogrerc19\ogitor\Dependencies\SkyX\SkyX.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:04:31.51

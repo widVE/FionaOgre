@@ -1,0 +1,37 @@
+|--------------------------------------------|
+|         Starting Ogre Demo           |
+|--------------------------------------------|
+Loading [../../Media/data/Sinbad]
+Setting up joint map for Sinbad
+Setting up Sinbad
+Setting up behavior set for MaleLocomotion...
+Loading [behaviorsets/MaleLocomotion/skeletons]
+** State: allLocomotion
+** State: allStartingLeft
+** State: allStartingRight
+** State: allIdleTurn
+** State: allStep
+Init Steer Agent
+Steer agent with name sinbad0 does not exist.
+sinbad0: Steering works under standard config.
+max Items per grid cell = 7
+INIT STEERSIM
+Problem starting steering engine: Could not load dynamic library "pprAId.dll".
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "../../Media/data/./ogresmartbody.py", line 47, in <module>
+
+    
+retargetBehaviorSet(sinbadName)
+
+  File "../../Media/data/behaviorsets/BehaviorSetMaleLocomotion.py", line 111, in retargetBehaviorSet
+
+    
+steerManager.setEnable(True)
+
+RuntimeError
+: 
+Engine functions were not called in the proper way; tried to transition from state 5 to state 3.
+See documentation for how to use the engine; eventually this error message will be expanded to give a meaningful specific error message.

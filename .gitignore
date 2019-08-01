@@ -1,0 +1,17 @@
+#ignore objs
+*.obj
+#ignore pdbs
+*.pdb
+#ignore zips
+*.zip
+#ignore liks
+*.lik
+#ignore libs
+*.lib
+#ignore dlls
+*.dlls
+~
+~
+~
+~
+

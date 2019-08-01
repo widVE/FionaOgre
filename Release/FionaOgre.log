@@ -1,0 +1,80 @@
+﻿Build started 8/8/2018 2:05:12 PM.
+     1>Project "S:\apps\dual_test\FionaOgre\FionaOgre.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\SDK\include\wsp /I.\SDK\include\bonebus /I.\SDK\include\steersuite /I.\SDK\include\python27\include /I.\SDK\include\vhcl /I.\SDK\include\OGRE\Sound /I.\SDK\include\AL /I.\SDK\include\OgreBullet\Collisions /I.\SDK\include\OgreBullet\bullet /I.\SDK\include /I..\FionaLib /I..\FionaLib\include /I.\SDK\include\OGRE /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FionaGoPro.cpp FionaOgre.cpp main.cpp MovableText.cpp OculusPerCal.cpp OgreDotScene.cpp VROgreAction.cpp WordCake.cpp
+         FionaGoPro.cpp
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(58): warning C4244: 'argument' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(81): warning C4244: 'argument' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(92): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(93): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(94): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(95): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(96): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(97): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(98): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(99): warning C4244: '=' : conversion from 'float' to 'uint', possible loss of data
+     1>S:\apps\dual_test\FionaLib\include\Kit3D/glUtils.h(208): warning C4305: 'argument' : truncation from 'unsigned int' to 'float'
+     1>FionaGoPro.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>FionaGoPro.cpp(143): warning C4101: 'd' : unreferenced local variable
+         FionaOgre.cpp
+     1>s:\apps\dual_test\fionaogre\sdk\include\vhcl\vhcl_win32.h(96): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>s:\apps\dual_test\fionaogre\sdk\include\python27\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>FionaOgre.cpp(1258): warning C4018: '<' : signed/unsigned mismatch
+     1>FionaOgre.cpp(1433): warning C4101: 'ex' : unreferenced local variable
+     1>FionaOgre.cpp(1456): warning C4101: 'ex' : unreferenced local variable
+         main.cpp
+     1>s:\apps\dual_test\fionaogre\sdk\include\vhcl\vhcl_win32.h(96): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>s:\apps\dual_test\fionaogre\sdk\include\python27\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         MovableText.cpp
+     1>MovableText.cpp(230): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>MovableText.cpp(250): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>MovableText.cpp(261): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(274): warning C4244: '+=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>MovableText.cpp(282): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(343): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(364): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(365): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(405): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(406): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(423): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>MovableText.cpp(442): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         OculusPerCal.cpp
+     1>s:\apps\dual_test\fionaogre\sdk\include\vhcl\vhcl_win32.h(96): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>s:\apps\dual_test\fionaogre\sdk\include\python27\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         OgreDotScene.cpp
+         VROgreAction.cpp
+     1>s:\apps\dual_test\fionaogre\sdk\include\vhcl\vhcl_win32.h(96): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>s:\apps\dual_test\fionaogre\sdk\include\python27\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         WordCake.cpp
+     1>s:\apps\dual_test\fionaogre\sdk\include\vhcl\vhcl_win32.h(96): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(206) : see previous definition of 'NTDDI_VERSION'
+     1>s:\apps\dual_test\fionaogre\sdk\include\python27\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>WordCake.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\apps\dual_test\FionaOgre\Release\FionaOgre.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\SDK\lib /LIBPATH:..\FionaLib\lib xinput.lib SmartBody.lib python27.lib Plugin_ParticleUniverse.lib LinearMath_vs2010.lib ConvexDecomposition_vs2010.lib HACD_vs2010.lib BulletDynamics_vs2010.lib BulletCollision_vs2010.lib OgreBulletCollisions.lib OgreBulletDynamics.lib Skyx.lib Hydrax.lib FionaLib.lib soil.lib ZSpaceApi.lib Leap.lib cg.lib cggl.lib vrpndll.lib glew32s.lib glut32.lib ogreMain.lib ogreTerrain.lib ogreOggSound.lib ogreoverlay.lib nxogre.lib critterstatic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:\apps\dual_test\FionaOgre\Release\FionaOgre.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\apps\dual_test\FionaOgre\Release\FionaOgre.lib" /MACHINE:X86 /SAFESEH Release\FionaGoPro.obj
+         Release\FionaOgre.obj
+         Release\main.obj
+         Release\MovableText.obj
+         Release\OculusPerCal.obj
+         Release\OgreDotScene.obj
+         Release\VROgreAction.obj
+         Release\WordCake.obj
+     1>OgreBulletCollisions.lib(OgreBulletCollisionsShape.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in FionaGoPro.obj
+     1>OgreBulletCollisions.lib(OgreBulletCollisionsDebugLines.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in FionaGoPro.obj
+     1>LINK : fatal error C1047: The object or library file '.\SDK\lib\soil.lib' was created with an older compiler than other objects; rebuild old objects and libraries
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "S:\apps\dual_test\FionaOgre\FionaOgre.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:03:14.67

@@ -1,0 +1,135 @@
+material body_side
+{
+   technique
+   {
+      pass
+      {
+         101.574803149606, 32.6771653543307
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture body_side.png
+         }
+      }
+   }
+}
+material body_top
+{
+   technique
+   {
+      pass
+      {
+         101.574803149606, 34.2868533838333
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture body_top.png
+         }
+      }
+   }
+}
+material antenna
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         21.259842519685, 53.9370078740157
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture antenna.png
+         }
+      }
+   }
+}
+material leg
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         42.1259842519685, 20.4724409448819
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture leg.png
+         }
+      }
+   }
+}
+material wing
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         184.251968503937, 161.811023622047
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wing.png
+         }
+      }
+   }
+}
+material BURST10
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         12.2834645669291, 12.2834645669291
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture BURST.png
+         }
+      }
+   }
+}
+material Translucent_Glass_Gray
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 0.501960784313725 0.501960784313725 0.501960784313725 0.0
+      }
+   }
+}
+material Material1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.247058823529412 0.247058823529412 0.247058823529412 1.0
+      }
+   }
+}
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+      }
+   }
+}
